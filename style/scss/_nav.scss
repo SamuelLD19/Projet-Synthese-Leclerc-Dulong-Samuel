@@ -1,0 +1,21 @@
+.custom-nav-link{
+    color: #4B5762;
+    &:hover{
+        color: #929FA7;
+    }
+}
+
+.custom-nav-icon:hover{
+    img {
+        opacity: 60%;
+      }
+}
+
+.custom-nav-link-active{
+    color: black;
+}
+
+.nav-secondaire{
+    font-size: 0.9em;
+}
+
