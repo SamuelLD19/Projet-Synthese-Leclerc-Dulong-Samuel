@@ -19,3 +19,10 @@
         color: white;
     }
 }
+
+.btn-tertiaire {
+    background-color: v.$tertiaire;
+    &:hover {
+        background-color: darken(v.$tertiaire, 10);
+    }
+}

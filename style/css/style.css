@@ -7,7 +7,7 @@
 }
 
 .custom-search-bar {
-  background-color: #f5f5f5;
+  background-color: #EEEFEF;
   border: none;
   border-radius: 0px 50px 50px 0px;
 }
@@ -18,7 +18,7 @@
 }
 
 .input-group-text {
-  background-color: #f5f5f5;
+  background-color: #EEEFEF;
   border-radius: 50px;
   border: none;
 }
@@ -100,9 +100,25 @@ h5 {
   color: white;
 }
 
+.btn-tertiaire {
+  background-color: #EEEFEF;
+}
+.btn-tertiaire:hover {
+  background-color: #d4d6d6;
+}
+
 .card-accueil {
   transition: transform 0.2s;
 }
 .card-accueil:hover {
   transform: scale(1.05);
+}
+
+.produit-title {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.produit-texte {
+  font-size: 0.8em;
 }/*# sourceMappingURL=style.css.map */
