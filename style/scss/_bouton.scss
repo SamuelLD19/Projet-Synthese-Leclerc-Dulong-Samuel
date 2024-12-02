@@ -1,0 +1,21 @@
+@use "variables" as v;
+
+.btn {
+    font-size: 0.8em;
+}
+
+.btn-primaire {
+    background-color: v.$primaire;
+    &:hover {
+        background-color: darken(v.$primaire, 10);
+    }
+}
+
+.btn-secondaire {
+    outline: 1px solid v.$primaire;
+    color: v.$primaire;
+    &:hover {
+        background-color: v.$primaire;
+        color: white;
+    }
+}
