@@ -74,10 +74,17 @@ h2 {
 }
 
 h5 {
+  font-family: "Archivo", sans-serif;
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   font-weight: 400;
+}
+
+h6 {
+  font-family: "Archivo", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
 }
 
 .btn {
