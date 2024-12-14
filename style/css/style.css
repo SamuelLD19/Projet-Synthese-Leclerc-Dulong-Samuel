@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 .carousel-indicators {
   list-style: none;
   padding: 0;
@@ -87,6 +89,11 @@ h6 {
   font-weight: 700;
 }
 
+#cardPreview {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
+}
+
 .btn {
   font-size: 0.8em;
 }
@@ -128,4 +135,19 @@ h6 {
 
 .produit-texte {
   font-size: 0.8em;
+}
+
+.floating-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transform: rotate(-5deg);
+  padding: 50px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+html, body {
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */

@@ -5,3 +5,8 @@
 @use 'bouton';
 @use 'cartes-accueil';
 @use 'carte-produits';
+@use 'carte-virtuelle';
+
+html, body {
+    overflow-x: hidden;
+  }
